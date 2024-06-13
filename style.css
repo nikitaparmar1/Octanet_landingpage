@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: lightcyan;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.first{
+    background-image: url(nature-chalal-trek-trail-sosan-india.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display:flex;
+    flex-direction:column;
+   
+    
+    align-items:center;
+    padding: 20px;
+}
+.first{
+    color:blanchedalmond;
+    text-shadow: 0cap;
+    text-size-adjust:inherit;
+
+}
+ul{
+    display: inline;
+    margin-right: 1cm;
+    margin-top: 2cm;
+    color: rgb(25, 24, 23);
+    background-color: bisque;
+    font-size: 0.55cm;   
+}
+.second{
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+}
+.third{
+    text-align: center;
+    background-color:rgb(235, 255, 255);
+}
+.photo-container
+{
+   display:flex;
+   justify-content: space-between;
+   width:80%;
+   max-width: 1200px;
+   margin:0 auto; 
+   gap: 20px;
+   background-color: lightcyan;
+  
+}
+.photo{
+    width: 100%;
+    height: auto;
+    
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0,0,0,1);
+}
+.photo-text{
+    margin-top: 10px;
+    font-size: 16px;
+    color:#333;
+}
+.photo-item{
+    text-align: center;
+    flex: 1;
+
+}
+@media (max-width:768px)
+ {.photo-item{
+
+ flex:0 0 45%;
+}
+ }
+
+
+ 
+@media (max-width:480px)
+{.photo-item{
+
+flex: 0 0 100%;
+ margin-bottom: 10px;  
+}
+.photo-container
+{
+   flex-direction: column;
+   align-items: center;
+  
+}
+}
+.contact-section {
+    background-color:lightcyan;
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 1.2em;
+    color: lightcyan;
+}
